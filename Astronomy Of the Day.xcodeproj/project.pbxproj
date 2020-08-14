@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBDFC18F24E732B500B0DD47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFC18E24E732B500B0DD47 /* AppDelegate.swift */; };
+		EBDFC19124E732B500B0DD47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFC19024E732B500B0DD47 /* SceneDelegate.swift */; };
+		EBDFC19324E732B500B0DD47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFC19224E732B500B0DD47 /* ContentView.swift */; };
+		EBDFC19524E732C300B0DD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDFC19424E732C300B0DD47 /* Assets.xcassets */; };
+		EBDFC19824E732C300B0DD47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDFC19724E732C300B0DD47 /* Preview Assets.xcassets */; };
+		EBDFC19B24E732C300B0DD47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDFC19924E732C300B0DD47 /* LaunchScreen.storyboard */; };
+		EBDFC1A624E732C300B0DD47 /* Astronomy_Of_the_DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFC1A524E732C300B0DD47 /* Astronomy_Of_the_DayTests.swift */; };
+		EBDFC1B124E732C300B0DD47 /* Astronomy_Of_the_DayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFC1B024E732C300B0DD47 /* Astronomy_Of_the_DayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBDFC1A224E732C300B0DD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDFC18324E732B500B0DD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDFC18A24E732B500B0DD47;
+			remoteInfo = "Astronomy Of the Day";
+		};
+		EBDFC1AD24E732C300B0DD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDFC18324E732B500B0DD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDFC18A24E732B500B0DD47;
+			remoteInfo = "Astronomy Of the Day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBDFC18B24E732B500B0DD47 /* Astronomy Of the Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Astronomy Of the Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDFC18E24E732B500B0DD47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBDFC19024E732B500B0DD47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBDFC19224E732B500B0DD47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBDFC19424E732C300B0DD47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBDFC19724E732C300B0DD47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBDFC19A24E732C300B0DD47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBDFC19C24E732C300B0DD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDFC1A124E732C300B0DD47 /* Astronomy Of the DayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Astronomy Of the DayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDFC1A524E732C300B0DD47 /* Astronomy_Of_the_DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronomy_Of_the_DayTests.swift; sourceTree = "<group>"; };
+		EBDFC1A724E732C300B0DD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDFC1AC24E732C300B0DD47 /* Astronomy Of the DayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Astronomy Of the DayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDFC1B024E732C300B0DD47 /* Astronomy_Of_the_DayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronomy_Of_the_DayUITests.swift; sourceTree = "<group>"; };
+		EBDFC1B224E732C400B0DD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBDFC18824E732B500B0DD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDFC19E24E732C300B0DD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDFC1A924E732C300B0DD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBDFC18224E732B500B0DD47 = {
+			isa = PBXGroup;
+			children = (
+				EBDFC18D24E732B500B0DD47 /* Astronomy Of the Day */,
+				EBDFC1A424E732C300B0DD47 /* Astronomy Of the DayTests */,
+				EBDFC1AF24E732C300B0DD47 /* Astronomy Of the DayUITests */,
+				EBDFC18C24E732B500B0DD47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBDFC18C24E732B500B0DD47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFC18B24E732B500B0DD47 /* Astronomy Of the Day.app */,
+				EBDFC1A124E732C300B0DD47 /* Astronomy Of the DayTests.xctest */,
+				EBDFC1AC24E732C300B0DD47 /* Astronomy Of the DayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBDFC18D24E732B500B0DD47 /* Astronomy Of the Day */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFC18E24E732B500B0DD47 /* AppDelegate.swift */,
+				EBDFC19024E732B500B0DD47 /* SceneDelegate.swift */,
+				EBDFC19224E732B500B0DD47 /* ContentView.swift */,
+				EBDFC19424E732C300B0DD47 /* Assets.xcassets */,
+				EBDFC19924E732C300B0DD47 /* LaunchScreen.storyboard */,
+				EBDFC19C24E732C300B0DD47 /* Info.plist */,
+				EBDFC19624E732C300B0DD47 /* Preview Content */,
+			);
+			path = "Astronomy Of the Day";
+			sourceTree = "<group>";
+		};
+		EBDFC19624E732C300B0DD47 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFC19724E732C300B0DD47 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBDFC1A424E732C300B0DD47 /* Astronomy Of the DayTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFC1A524E732C300B0DD47 /* Astronomy_Of_the_DayTests.swift */,
+				EBDFC1A724E732C300B0DD47 /* Info.plist */,
+			);
+			path = "Astronomy Of the DayTests";
+			sourceTree = "<group>";
+		};
+		EBDFC1AF24E732C300B0DD47 /* Astronomy Of the DayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFC1B024E732C300B0DD47 /* Astronomy_Of_the_DayUITests.swift */,
+				EBDFC1B224E732C400B0DD47 /* Info.plist */,
+			);
+			path = "Astronomy Of the DayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBDFC18A24E732B500B0DD47 /* Astronomy Of the Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDFC1B524E732C400B0DD47 /* Build configuration list for PBXNativeTarget "Astronomy Of the Day" */;
+			buildPhases = (
+				EBDFC18724E732B500B0DD47 /* Sources */,
+				EBDFC18824E732B500B0DD47 /* Frameworks */,
+				EBDFC18924E732B500B0DD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Astronomy Of the Day";
+			productName = "Astronomy Of the Day";
+			productReference = EBDFC18B24E732B500B0DD47 /* Astronomy Of the Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBDFC1A024E732C300B0DD47 /* Astronomy Of the DayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDFC1B824E732C400B0DD47 /* Build configuration list for PBXNativeTarget "Astronomy Of the DayTests" */;
+			buildPhases = (
+				EBDFC19D24E732C300B0DD47 /* Sources */,
+				EBDFC19E24E732C300B0DD47 /* Frameworks */,
+				EBDFC19F24E732C300B0DD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDFC1A324E732C300B0DD47 /* PBXTargetDependency */,
+			);
+			name = "Astronomy Of the DayTests";
+			productName = "Astronomy Of the DayTests";
+			productReference = EBDFC1A124E732C300B0DD47 /* Astronomy Of the DayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBDFC1AB24E732C300B0DD47 /* Astronomy Of the DayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDFC1BB24E732C400B0DD47 /* Build configuration list for PBXNativeTarget "Astronomy Of the DayUITests" */;
+			buildPhases = (
+				EBDFC1A824E732C300B0DD47 /* Sources */,
+				EBDFC1A924E732C300B0DD47 /* Frameworks */,
+				EBDFC1AA24E732C300B0DD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDFC1AE24E732C300B0DD47 /* PBXTargetDependency */,
+			);
+			name = "Astronomy Of the DayUITests";
+			productName = "Astronomy Of the DayUITests";
+			productReference = EBDFC1AC24E732C300B0DD47 /* Astronomy Of the DayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBDFC18324E732B500B0DD47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Owner;
+				TargetAttributes = {
+					EBDFC18A24E732B500B0DD47 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					EBDFC1A024E732C300B0DD47 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EBDFC18A24E732B500B0DD47;
+					};
+					EBDFC1AB24E732C300B0DD47 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EBDFC18A24E732B500B0DD47;
+					};
+				};
+			};
+			buildConfigurationList = EBDFC18624E732B500B0DD47 /* Build configuration list for PBXProject "Astronomy Of the Day" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBDFC18224E732B500B0DD47;
+			productRefGroup = EBDFC18C24E732B500B0DD47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBDFC18A24E732B500B0DD47 /* Astronomy Of the Day */,
+				EBDFC1A024E732C300B0DD47 /* Astronomy Of the DayTests */,
+				EBDFC1AB24E732C300B0DD47 /* Astronomy Of the DayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBDFC18924E732B500B0DD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDFC19B24E732C300B0DD47 /* LaunchScreen.storyboard in Resources */,
+				EBDFC19824E732C300B0DD47 /* Preview Assets.xcassets in Resources */,
+				EBDFC19524E732C300B0DD47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDFC19F24E732C300B0DD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDFC1AA24E732C300B0DD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBDFC18724E732B500B0DD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDFC18F24E732B500B0DD47 /* AppDelegate.swift in Sources */,
+				EBDFC19124E732B500B0DD47 /* SceneDelegate.swift in Sources */,
+				EBDFC19324E732B500B0DD47 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDFC19D24E732C300B0DD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDFC1A624E732C300B0DD47 /* Astronomy_Of_the_DayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDFC1A824E732C300B0DD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDFC1B124E732C300B0DD47 /* Astronomy_Of_the_DayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBDFC1A324E732C300B0DD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDFC18A24E732B500B0DD47 /* Astronomy Of the Day */;
+			targetProxy = EBDFC1A224E732C300B0DD47 /* PBXContainerItemProxy */;
+		};
+		EBDFC1AE24E732C300B0DD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDFC18A24E732B500B0DD47 /* Astronomy Of the Day */;
+			targetProxy = EBDFC1AD24E732C300B0DD47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBDFC19924E732C300B0DD47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDFC19A24E732C300B0DD47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBDFC1B324E732C400B0DD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBDFC1B424E732C400B0DD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBDFC1B624E732C400B0DD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Astronomy Of the Day/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Astronomy Of the Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Astronomy-Of-the-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBDFC1B724E732C400B0DD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Astronomy Of the Day/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Astronomy Of the Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Astronomy-Of-the-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBDFC1B924E732C400B0DD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Astronomy Of the DayTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Astronomy-Of-the-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astronomy Of the Day.app/Astronomy Of the Day";
+			};
+			name = Debug;
+		};
+		EBDFC1BA24E732C400B0DD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Astronomy Of the DayTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Astronomy-Of-the-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astronomy Of the Day.app/Astronomy Of the Day";
+			};
+			name = Release;
+		};
+		EBDFC1BC24E732C400B0DD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Astronomy Of the DayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Astronomy-Of-the-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Astronomy Of the Day";
+			};
+			name = Debug;
+		};
+		EBDFC1BD24E732C400B0DD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Astronomy Of the DayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Astronomy-Of-the-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Astronomy Of the Day";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBDFC18624E732B500B0DD47 /* Build configuration list for PBXProject "Astronomy Of the Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDFC1B324E732C400B0DD47 /* Debug */,
+				EBDFC1B424E732C400B0DD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDFC1B524E732C400B0DD47 /* Build configuration list for PBXNativeTarget "Astronomy Of the Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDFC1B624E732C400B0DD47 /* Debug */,
+				EBDFC1B724E732C400B0DD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDFC1B824E732C400B0DD47 /* Build configuration list for PBXNativeTarget "Astronomy Of the DayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDFC1B924E732C400B0DD47 /* Debug */,
+				EBDFC1BA24E732C400B0DD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDFC1BB24E732C400B0DD47 /* Build configuration list for PBXNativeTarget "Astronomy Of the DayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDFC1BC24E732C400B0DD47 /* Debug */,
+				EBDFC1BD24E732C400B0DD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBDFC18324E732B500B0DD47 /* Project object */;
+}
